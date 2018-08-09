@@ -74,7 +74,16 @@
 
 
                 <ProgressBar
-                    android:id="@+id/Progressbar"
+                    android:id="@+id/Progressbar0"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="3dp"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:progressDrawable="@drawable/greenprogress"/>
+
+                <ProgressBar
+                    android:id="@+id/Progressbar1"
                     style="@android:style/Widget.ProgressBar.Horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="3dp"
@@ -93,15 +102,6 @@
 
                 <ProgressBar
                     android:id="@+id/Progressbar3"
-                    style="@android:style/Widget.ProgressBar.Horizontal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="3dp"
-                    android:layout_weight="1"
-                    android:layout_margin="2dp"
-                    android:progressDrawable="@drawable/greenprogress"/>
-
-                <ProgressBar
-                    android:id="@+id/Progressbar4"
                     style="@android:style/Widget.ProgressBar.Horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="3dp"
